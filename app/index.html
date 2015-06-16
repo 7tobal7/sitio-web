@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui">
-    <title>bootstrap less2</title>
+    <title>Be&Life</title>
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 
     <!-- build:css styles/vendor.css -->
@@ -20,61 +20,345 @@
     <!-- build:js scripts/vendor/modernizr.js -->
     <script src="../bower_components/modernizr/modernizr.js"></script>
     <!-- endbuild -->
+    <!--fonts-->
+    <link href='http://fonts.googleapis.com/css?family=Oswald:400,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Montserrat:700' rel='stylesheet' type='text/css'>
 </head>
 
-<body>
+<body id="page-top">
     <!--[if lt IE 10]>
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
+    <header>
+        <nav class="navbar navbar-default navbar-fixed-top">
+          <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menuheader">
+                <span class="sr-only">Desplegar Menú</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="#">Be&Life</a>
+            </div>
 
-    <!-- Standard button -->
-    <button type="button" class="btn btn-default">Default</button>
+            <!-- Inicio del menu -->
+            <div class="collapse navbar-collapse" id="menuheader">
+              <ul class="nav navbar-nav navbar-right">
+                <li><a href="#presentacion">Presentación</a></li>
+                <li><a href="#vision">Visión</a></li>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#contact">Contacto</a></li>
+              </ul>
+             
+            </div><!-- /.navbar-collapse -->
+          </div><!-- /.container-fluid -->
+        </nav>
+    </header>
 
-    <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
-    <button type="button" class="btn btn-primary">Primary</button>
 
-    <!-- Indicates a successful or positive action -->
-    <button type="button" class="btn btn-success">Success</button>
+    <section class="jumbotron">
+        <div class="container">
+            <h1>be&life</h1>
+        </div>
+    </section>
+    <section class="main container ">
+        <div class="col-md-12">
+            <div id="carousel-1" class="carousel slide" data-ride="carousel">
+                     <!-- Indicadores-->
+                    <ol class="carousel-indicators">
+                        <li data-target="#carousel-1" data-slide-to="0" class="active"></li>
+                         <li data-target="#carousel-1" data-slide-to="1"></li>
+                          <li data-target="#carousel-1" data-slide-to="2"></li>
+                    </ol>
+                        <!-- Contenedor slide-->
+                <div class="carousel-inner" role="listbox">
+                            <div class="item active">
+                                <img src="images/slide2.jpg" height="700" width="1920" alt="" class="img-responsive">
+                                <div class="carousel-caption hidden-xs hidden-sm">
+                                    <h3>MODA</h3>
+                                </div>
+                                
+                            </div>
+                            <div class="item">
+                                <img src="images/diseno.jpg" alt="" class="img-responsive">
+                                <div class="carousel-caption hidden-xs hidden-sm">
+                                    <h3>DISEÑO</h3>
+                                </div>
+                                
+                            </div>
+                            <div class="item">
+                                <img src="images/Slide1.jpg" alt="" class="img-responsive">
+                                <div class="carousel-caption hidden-xs hidden-sm">
+                                    <h3>IMAGEN</h3>
+                                </div>       
+                            </div>
+               </div>
+                <!-- Controles-->
+                
+            </div>
+        </div>
+    </section>
+    <section id="presentacion">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                        <h2>Presentación</h2>
+                        <hr class="star-primary">
+                    </div>
+            </div>
+            <div class="row">
+                    <div class="col-ls-6 center-block">
+                    <video src="images/bevideo.webm" controls class="img images-responsive center-block"></video>
+                    </div>
+            </div>
+        </div>
+    </section>
+    <section id="vision">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                        <h2>Visión</h2>
+                        <hr class="star-primary">
+                    </div>
+            </div>
+            <div class="row">
+                <p class="text-center">Para nosotros las ciudades son un gran escaparate donde los estímulos visuales se entremezclan formando lo que algunos llaman vida. Dentro de este mundo, la comunicación visual es la forma más directa y enérgica de transmitir un mensaje. En Beandlife somos capaces de reducir las explicaciones que sobran, las palabras de más, los ruidos innecesarios y convertir la comunicación en algo claro, eficaz y contundente.</p>
+                <img src="images/diseno.jpg" class="img-responsive" alt="Diseno">
+            </div>
+        </div>
+    </section>
+     <section id="servicios">
+        <div class="container">
+            <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <h2>Servicios</h2>
+                        <hr class="star-primary">
+                    </div>
+            </div>
+            
+            <div class="row"> 
 
-    <!-- Contextual button for informational alert messages -->
-    <button type="button" class="btn btn-info">Info</button>
+                <div class="col-md-3 col-sm-2 ">
+                <h2>EDITORIAL</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus alias cum, voluptatem eveniet delectus quae, iure laborum rem molestias at, deleniti blanditiis totam sunt. Consectetur, aliquam distinctio illum velit voluptatibus?</p>
+                    
+                </div>
+                 <div class="col-md-3 col-sm-2">
+                <h2>IMAGEN</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus alias cum, voluptatem eveniet delectus quae, iure laborum rem molestias at, deleniti blanditiis totam sunt. Consectetur, aliquam distinctio illum velit voluptatibus?</p>
+                    
+                </div>
+                 <div class="col-md-3 col-sm-2">
+                <h2>COMUNICACIÓN</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus alias cum, voluptatem eveniet delectus quae, iure laborum rem molestias at, deleniti blanditiis totam sunt. Consectetur, aliquam distinctio illum velit voluptatibus?</p>
+                    
+                </div>
+                 <div class="col-md-3 col-sm-2">
+                <h2>EVENTOS</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus alias cum, voluptatem eveniet delectus quae, iure laborum rem molestias at, deleniti blanditiis totam sunt. Consectetur, aliquam distinctio illum velit voluptatibus?</p>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="proyectos">
+        <div class="container">
+            <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <h2>Proyectos</h2>
+                        <hr class="star-primary">
+                    </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6 col-lg-4">
+                    <div class="thumbnail">
+                        <img src="images/moda1.jpg" class="img-responsive" height="302" width="302" alt="Marcas Helen" >
+                        <div class="caption">
+                            <h3>Marcas Helena</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit odio aut, nostrum rerum assumenda nobis rem a maiores temporibus non commodi corrupti laboriosam doloremque expedita accusamus, eos harum. Quo, officiis.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="thumbnail">
+                        <img src="images/moda2.jpg" class="img-responsive" height="302" width="302" alt="Marca Dolores">
+                        <div class="caption">
+                            <h3>Dolores Promesas</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam vel dolores qui, necessitatibus aut eaque magni mollitia tenetur molestiae sit quae quos quaerat amet exercitationem atque animi odio minima vero.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="thumbnail">
+                        <img src="images/moda3.jpg" class="img-responsive" alt="Estilos urbanos">
+                        <div class="caption">
+                            <h3>Estilos urbanos</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci delectus accusamus libero quos molestiae sed nihil. Quod nostrum odit saepe, magnam. Harum cupiditate similique amet quod laudantium. Voluptas praesentium, nam!</p>
+                               
+                        </div>
+                    </div>
+                </div>
 
-    <!-- Indicates caution should be taken with this action -->
-    <button type="button" class="btn btn-warning">Warning</button>
+            </div>
+            <div class="row">
+                <div class="col-sm-6 col-md-4">
+                    <div class="thumbnail">
+                        <img src="images/moda5.jpg" class="img-responsive" height="170" width="297" alt="La mejor moda">
+                        <div class="caption">
+                            <h3>La mejor moda</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit porro officia quis veritatis esse, sed fugiat aut ab dolorum nostrum sequi odio mollitia pariatur accusamus quas necessitatibus sunt adipisci atque!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <div class="thumbnail">
+                        <img src="images/moda4.jpg" class="img-responsive" height="170" width="297" alt="Peinados imposibles">
+                        <div class="caption">
+                            <h3>Peinados imposibles</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, quas explicabo molestiae rerum animi et quasi reprehenderit adipisci nihil impedit sint sed quisquam alias, deleniti aut voluptas iusto omnis ipsam.</p>
+                                
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <div class="thumbnail">
+                        <img src="images/moda6.jpg" class="img-responsive" height="170" width="297" alt="Crea tu look">
+                        <div class="caption">
+                            <h3>Crea tu look</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias repellendus velit atque placeat repellat iure minus, ipsam, ipsa dolore eum corrupti beatae veritatis quaerat. Veniam non mollitia quia dolorem saepe.</p>
+                              
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="row">
+                <div class="col-sm-6 col-md-4">
+                    <div class="thumbnail">
+                        <img src="images/moda7.jpg" height="170" width="297" alt="Tendencias de verano">
+                        <div class="caption">
+                            <h3>Tendencias de verano</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam inventore ratione nobis dolores ipsa, repellat vitae debitis perferendis expedita? Perferendis et beatae reiciendis, quisquam tenetur nostrum nisi suscipit, libero odit.</p>
+                                
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <div class="thumbnail">
+                        <img src="images/moda8.jpg" height="170" width="297" alt="Madrid Fashion">
+                        <div class="caption">
+                            <h3>Madrid Fashion</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis nesciunt dicta eius vel, perferendis inventore vitae repellendus. Aut eveniet, soluta, reprehenderit quasi odit laboriosam fugit incidunt vel minima cum eum.</p>
+                               
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <div class="thumbnail">
+                        <img src="images/moda9.jpg" height="170" width="297" alt="El invierno se acaba">
+                        <div class="caption">
+                            <h3>El invierno se acaba</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic at nemo est voluptatem placeat eaque, odit magni, alias voluptatum quis animi pariatur quia dicta, aperiam accusamus sapiente dolorem. Error, cum!</p>
+                                
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+     
+      
+      
+        </div>
 
-    <!-- Indicates a dangerous or potentially negative action -->
-    <button type="button" class="btn btn-danger">Danger</button>
-
-    <!-- Deemphasize a button by making it look like a link while maintaining button behavior -->
-    <button type="button" class="btn btn-link">Link</button>
-
-    <div class="hero-unit">
-        <h1>'Allo, 'Allo!</h1>
-        <p>You now have</p>
-        <ul>
-            <li>HTML5 Boilerplate</li>
-            <li>Sass</li>
-            <li>Modernizr</li>
-        </ul>
-    </div>
-
+    </section>
+    <section id="contact">
+        <div class="container">
+            <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <h2>Contacto</h2>
+                        <hr class="star-primary">
+                    </div>
+            </div>
+            <div class="row">
+                <form class="form-horizontal" role="form">
+                    <div class="form-group">
+                        <label for="email" class="col-lg-2 control-label">Email</label>
+                        <div class="col-lg-10">
+                          <input type="email" class="form-control" id="email"
+                                 placeholder="Email" required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="nombre" class="col-lg-2 control-label">Nombre</label>
+                        <div class="col-lg-10">
+                          <input type="text" class="form-control" id="nombre" 
+                                 placeholder="Nombre" required>
+                        </div>
+                    </div>
+                     <div class="form-group">
+                        <label for="comentario" class="col-lg-2 control-label">Comentario</label>
+                        <div class="col-lg-10">
+                          <input type="text" class="form-control" id="comentario" 
+                                 placeholder="Escribe aqui tu comentario" required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-lg-offset-2 col-lg-10">
+                          <div class="checkbox">
+                            <label>
+                              <input type="checkbox" required> Acepto las condiciones de uso
+                            </label>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="form-group">
+                        <div class="col-lg-offset-2 col-lg-10">
+                          <button type="submit" class="btn btn-default">Enviar</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+     <footer class="text-center">
+        <div class="footer-above">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col col-md-4">
+                        <h3>Direccion</h3>
+                        <a href="recursos.txt">RECURSOS</a>
+                    </div>
+                    <div class="footer-col col-md-4">
+                        <h3>Redes Sociales</h3>
+                        <ul class="list-inline">
+                            <li>
+                                <a href="https://www.facebook.com/" class="btn-social btn-outline"><i class="fa fa-fw fa-facebook"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://plus.google.com/" class="btn-social btn-outline"><i class="fa fa-fw fa-google-plus"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://www.twitter.com" class="btn-social btn-outline"><i class="fa fa-fw fa-twitter"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://es.linkedin.com/" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer-col col-md-4">
+                        <h3>Cristóbal Carmona</h3>
+                        <p>Ver repositorio en  <a href="https://github.com/7tobal7/sitio-web">GIT</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+ 
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-    <script>
-    (function(b, o, i, l, e, r) {
-        b.GoogleAnalyticsObject = l;
-        b[l] || (b[l] =
-            function() {
-                (b[l].q = b[l].q || []).push(arguments)
-            });
-        b[l].l = +new Date;
-        e = o.createElement(i);
-        r = o.getElementsByTagName(i)[0];
-        e.src = '//www.google-analytics.com/analytics.js';
-        r.parentNode.insertBefore(e, r)
-    }(window, document, 'script', 'ga'));
-    ga('create', 'UA-XXXXX-X');
-    ga('send', 'pageview');
-    </script>
+  
 
 
     <!-- build:js scripts/vendor.js -->

@@ -1,0 +1,10 @@
+Framework CSS
+Twitter Bootstrap
+
+Paleta de colores
+http://paletton.com/#uid=53x0u0k0Gfl0Br60CkV149c3L2c
+
+Google Fonts
+http://fonts.googleapis.com/css?family=Oswald:400,700'
+http://fonts.googleapis.com/css?family=Montserrat:700'
+http://fonts.googleapis.com/css?family=Lora'
